@@ -2,11 +2,11 @@
   "name": "express-app",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "api/src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev --exit-child src/index.ts",
-    "start": "ts-node src/index.ts",
+    "start": "node build/src/index.js",
     "build": "npx tsc"
   },
   "keywords": [],
